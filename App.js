@@ -19,8 +19,7 @@ class App extends Component {
           ); // The photograph is courtesy of the U.S. Geological Survey.
 
           const srcImage =
-            "https://developers.google.com/maps/documentation/" +
-            "javascript/examples/full/images/talkeetna.png";
+            "../../images/Pune3.png";
           class USGSOverlay extends google.maps.OverlayView {
             constructor(bounds, image) {
               super(); // Initialize all properties.
